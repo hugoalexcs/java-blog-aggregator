@@ -1,0 +1,49 @@
+Structure of the project
+On this project was using:
+1. bootstrap: http://getbootstrap.com/getting-started/
+1.1 Basic template:
+2. JQuery CDN: https://developers.google.com/speed/libraries/#jquery
+3. Spring MVC:
+4. 
+
+File from configuration:
+1. http://docs.spring.io/spring/docs/4.3.0.BUILD-SNAPSHOT/spring-framework-reference/htmlsingle/#context-create
+2. https://developers.google.com/speed/libraries/#jquery
+3. http://getbootstrap.com/examples/navbar/
+4. http://hibernate.org/
+5. http://www.javavids.com/video/eclipse-jpa-diagram-editor.html
+6. http://projects.spring.io/spring-security/#quick-start
+7. security.xml --> http://docs.spring.io/spring-security/site/docs/4.0.4.RELEASE/reference/htmlsingle/#ns-config
+8. http://jqueryvalidation.org/
+9. Deploy Application : https://www.heroku.com/ (email: hugolanguagetraining@gmail.com)
+10.baixar o app: https://toolbelt.heroku.com/
+11.https://devcenter.heroku.com/articles/war-deployment (heroku plugins:install https://github.com/heroku/heroku-deploy)
+   (hedoku login)
+   Email: hugolanguagetraining@gmail.com
+   senha
+   heroku deploy:war --war java-blog-aggregator-0.0.1-SNAPSHOT.war --app aprendendospringmvc
+
+	Wait the deploy	
+
+Problem that appear on this project:
+
+1. The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build Path;
+2. Description Resource Path Location Type Cannot change version of project facet Dynamic Web Module to 2.5
+3. Error creating bean with name 'initDbService': Injection of autowired dependencies failed
+4. Failed to evaluate expression 'ROLE_ADMIN' #1051
+5. Invalid CSRF Token 'null' was found on the request parameter '_csrf' or header 'X-CSRF-TOKEN'
+
+Possible solution:
+ 1. http://stackoverflow.com/questions/22756153/the-superclass-javax-servlet-http-httpservlet-was-not-found-on-the-java-build
+ 2. http://stackoverflow.com/questions/18122336/cannot-change-version-of-project-facet-dynamic-web-module-to-3-0
+ 3. http://stackoverflow.com/questions/32389677/error-creating-bean-with-name-initdbservice-injection-of-autowired-dependenci
+ 4. https://github.com/Jasig/cas/issues/1051
+ 5. http://stackoverflow.com/questions/21128058/invalid-csrf-token-null-was-found-on-the-request-parameter-csrf-or-header
+
+
+Others
+ 1.7.13
+ 
+ 1.7.18
+
+<li class="active"><a href='<spring:url value="/" /> '>Home</a></li>
